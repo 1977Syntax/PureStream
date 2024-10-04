@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #007ACC;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    background-image: url('https://example.com/water-bottle.jpg'); /* Replace with your image */
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cta {
+    background-color: #fff;
+    color: #007ACC;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.cta:hover {
+    background-color: #00aaff;
+}
+
+.section {
+    padding: 60px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 32px;
+    color: #007ACC;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.elite {
+    background-color: #007ACC;
+    color: #fff;
+}
+
+#joinBtn {
+    background-color: #fff;
+    color: #007ACC;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#joinBtn:hover {
+    background-color: #00aaff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007ACC;
+    color: #fff;
+    margin-top: 30px;
+}
