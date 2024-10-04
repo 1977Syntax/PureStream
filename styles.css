@@ -1,22 +1,19 @@
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
     background-color: #f0f8ff; /* Light blue background */
 }
 
 header {
-    background-color: #0077cc; /* Deep blue for header */
-    color: #ffffff;
-    padding: 20px 0;
+    background-color: #00aaff; /* Blue header */
+    padding: 20px;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.logo {
-    font-size: 2em;
-    font-weight: bold;
+header .logo {
+    font-size: 24px;
+    color: #fff;
 }
 
 nav ul {
@@ -30,85 +27,56 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
 }
 
 .hero {
-    background-image: url('https://example.com/water-hero.jpg'); /* Add a high-quality background image */
-    background-size: cover;
-    background-position: center;
-    height: 400px;
-    color: #ffffff;
+    background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fG1vdW50YWluJTIwY2F0ZXJpbmF8ZW58MHx8fHwxNjc5MjA2OTY4&ixlib=rb-4.0.3&q=80&w=1080') center / cover; /* Background image */
+    height: 300px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     text-align: center;
+    color: white;
+    padding: 20px;
 }
 
-.hero-text h1 {
-    font-size: 3em;
-    margin: 0;
+.hero-text {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 20px;
+    border-radius: 10px;
 }
 
-.hero-text p {
-    font-size: 1.2em;
-}
-
-.cta {
-    background-color: #00cc77; /* Green for CTA button */
-    color: #ffffff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s;
-}
-
-.cta:hover {
-    background-color: #009966; /* Darker green on hover */
+.black-text {
+    color: #000000; /* Black color */
 }
 
 .section {
     padding: 20px;
-    margin: 20px auto;
-    max-width: 800px;
-    background-color: #ffffff;
+    margin: 10px;
+    background-color: #ffffff; /* White background for sections */
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    border: 2px solid #0077cc; /* Blue border for sections */
-    animation: fadeIn 0.5s ease; /* Animation for section appearance */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .elite {
-    background-color: #e0ffe0; /* Light green for elite section */
+    background-color: #e7f5ff; /* Light blue for elite section */
 }
 
-h2 {
-    color: #0077cc; /* Blue for section headings */
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00aaff; /* Button color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
 footer {
     text-align: center;
-    padding: 10px 0;
-    background-color: #0077cc; /* Same blue as header */
-    color: #ffffff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+    padding: 10px;
+    background-color: #00aaff; /* Blue footer */
+    color: white;
 }
