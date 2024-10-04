@@ -1,29 +1,24 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light blue background */
 }
 
 header {
-    background-color: #007ACC;
+    background-color: #00aaff; /* Blue header */
     padding: 20px;
     text-align: center;
 }
 
 header .logo {
-    font-size: 30px;
+    font-size: 24px;
     color: #fff;
-    font-weight: bold;
 }
 
 nav ul {
     list-style: none;
+    padding: 0;
 }
 
 nav ul li {
@@ -34,85 +29,55 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
 }
 
 .hero {
-    background-image: url('https://example.com/water-bottle.jpg'); /* Replace with your image */
-    background-size: cover;
-    height: 50vh;
+    background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fG1vdW50YWluJTIwY2F0ZXJpbmF8ZW58MHx8fHwxNjc5MjA2OTY4&ixlib=rb-4.0.3&q=80&w=1080') center / cover; /* Background image */
+    height: 300px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    color: #fff;
+    justify-content: center;
     text-align: center;
+    color: white;
+    padding: 20px;
 }
 
-.hero-text h1 {
-    font-size: 42px;
-    margin-bottom: 15px;
+.hero-text {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 20px;
+    border-radius: 10px;
 }
 
-.hero-text p {
-    font-size: 20px;
-    margin-bottom: 30px;
-}
-
-.cta {
-    background-color: #fff;
-    color: #007ACC;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 5px;
-}
-
-.cta:hover {
-    background-color: #00aaff;
+.black-text {
+    color: #000000; /* Black color */
 }
 
 .section {
-    padding: 60px;
-    background-color: #fff;
-    text-align: center;
-}
-
-.section h2 {
-    font-size: 32px;
-    color: #007ACC;
-    margin-bottom: 20px;
-}
-
-.section p {
-    font-size: 18px;
-    line-height: 1.8;
-    max-width: 800px;
-    margin: 0 auto;
+    padding: 20px;
+    margin: 10px;
+    background-color: #ffffff; /* White background for sections */
+    border-radius: 8px;
+    border: 2px solid #00aaff; /* Add blue border */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .elite {
-    background-color: #007ACC;
-    color: #fff;
+    background-color: #e7f5ff; /* Light blue for elite section */
 }
 
-#joinBtn {
-    background-color: #fff;
-    color: #007ACC;
-    padding: 12px 24px;
-    font-size: 18px;
-    border: none;
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00aaff; /* Button color */
+    color: white;
+    text-decoration: none;
     border-radius: 5px;
-    cursor: pointer;
-}
-
-#joinBtn:hover {
-    background-color: #00aaff;
+    margin-top: 10px;
 }
 
 footer {
     text-align: center;
-    padding: 20px;
-    background-color: #007ACC;
-    color: #fff;
-    margin-top: 30px;
+    padding: 10px;
+    background-color: #00aaff; /* Blue footer */
+    color: white;
 }
